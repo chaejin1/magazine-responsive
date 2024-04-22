@@ -1,0 +1,7 @@
+.body {
+	background-color: rgb(253, 251, 245);
+	border: 1px solid black;
+	padding: 20px;
+	flex: 1;
+	justify-content: center;
+}
