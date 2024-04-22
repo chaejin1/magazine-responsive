@@ -5,6 +5,11 @@
 	font-weight: 400;
 	font-style: normal;
 }
+
+* {
+	box-sizing: border-box;
+}
+
 html {
 	font-size: 16px;
 }
@@ -13,11 +18,11 @@ html {
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-start;
 
 	/* Inside Auto Layout */
 	margin: 48px 0px;
+
+	border-bottom: 1px solid rgb(25, 25, 25);
 }
 
 /* --title-container-- */
@@ -91,10 +96,9 @@ html {
 	/* Border */
 	position: static;
 	width: 1px;
-	height: 1653.6304px;
-	/* Inside Auto Layout */
+	/* height: 1653.63px; */
 	margin: 0px 48px;
-
+	margin-bottom: 48px;
 	/* border/default */
 	background: rgb(25, 25, 25);
 }
@@ -104,13 +108,11 @@ html {
 	/* Grid */
 	position: static;
 	width: 1157px;
-	height: 1653.6304px;
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 0px;
 
 	/* Inside Auto Layout */
 	margin: 0px 48px;
@@ -120,7 +122,6 @@ html {
 	/* Project */
 	position: static;
 	width: 1157px;
-	height: 768.1296px;
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: column;
@@ -148,14 +149,13 @@ html {
 
 .big-picture .text-container {
 	width: 1157px;
-	height: 29px;
 }
 
 .text-container .name {
 	/* Dancing Stars */
 	position: static;
 	width: 1103px;
-	height: 29px;
+	/* height: 29px; */
 
 	color: rgb(25, 25, 25);
 	font-family: 'Pretendard';
@@ -222,3 +222,5 @@ html {
 	height: 386.25px;
 	margin: 0px 32px;
 }
+
+/* ----- section: how we work ----- */

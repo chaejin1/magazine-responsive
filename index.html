@@ -1,101 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-    href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-    rel="stylesheet"
-  />
-  </head>
-  <body>
-    <header>
-      <nav class="head">
-        <img src="images/Logo_FYLLA.svg" alt="Logo_FYLLA" class="logo">
-        <ul class="nav-items">
-          <li><a href="#">WORK</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">STUDIO</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">SHOP</a></li>
-          <li><a href="#">PAGES</a></li>
-          <li><a href="#">CART&nbsp;(0)</a></li>
-          <ul class="box-items">
-            <li><a href="#" class="button">LET'S TALK</a></li>
-            <li><img src="images/Border.svg" alt="Border" height="20px" width="1px"></li>
-            <li class="option"><a href="#">LN</a></li>
-            <li class="option"><a href="#">IN</a></li>
-            <li class="option"><a href="#">FB</a></li>
-          </ul>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav class="head">
+				<img src="images/Logo_FYLLA.svg" alt="Logo_FYLLA" class="logo" />
+				<ul class="nav-items">
+					<li><a href="#">WORK</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">STUDIO</a></li>
+					<li><a href="#">BLOG</a></li>
+					<li><a href="#">SHOP</a></li>
+					<li><a href="#">PAGES</a></li>
+					<li><a href="#">CART&nbsp;(0)</a></li>
+					<ul class="box-items">
+						<li><a href="#" class="button">LET'S TALK</a></li>
+						<li>
+							<img
+								src="images/Border.svg"
+								alt="Border"
+								height="20px"
+								width="1px"
+							/>
+						</li>
+						<li class="option"><a href="#">LN</a></li>
+						<li class="option"><a href="#">IN</a></li>
+						<li class="option"><a href="#">FB</a></li>
+					</ul>
+				</ul>
+			</nav>
+			<!-- section: Featured Work -->
+			<link rel="stylesheet" href="./styles/featured-work.css" />
+			<section class="container featured-work">
+				<!-- title-container -->
+				<div class="title-container">
+					<div class="text-title">Featured Work</div>
+					<div class="text-content">
+						Showcasing our standout projects that blend creativity, strategy,
+						and cutting-edge design.
+					</div>
+					<button class="black-button">SEE ALL WORK</button>
+				</div>
+				<div class="vl"></div>
+				<!-- contents -->
+				<article class="content-container">
+					<div class="big-picture">
+						<img src="./images/featured_work/dancing-stars.png" />
+						<div class="text-container">
+							<span class="name">Dancing Stars</span>
+							<span class="year">2022</span>
+						</div>
+					</div>
+					<div class="hl"></div>
+					<div class="projects-container">
+						<div class="project-item">
+							<img src="./images/featured_work/enjoy-silence.png" />
+							<div class="text-container">
+								<span class="name">Enjoy Silence</span>
+								<span class="year">2022</span>
+							</div>
+						</div>
+						<div class="vl short"></div>
+						<div class="project-item">
+							<img src="./images/featured_work/pure-vision.png" />
+							<div class="text-container">
+								<span class="name">Pure Vision</span>
+								<span class="year">2022</span>
+							</div>
+						</div>
+					</div>
+					<div class="projects-container">
+						<div class="project-item">
+							<img src="./images/featured_work/boring-brand.png" />
+							<div class="text-container">
+								<span class="name">Boring Brand</span>
+								<span class="year">2022</span>
+							</div>
+						</div>
+						<div class="vl short"></div>
+						<div class="project-item">
+							<img src="./images/featured_work/new-culture.png" />
+							<div class="text-container">
+								<span class="name">New Culture</span>
+								<span class="year">2022</span>
+							</div>
+						</div>
+					</div>
+				</article>
+			</section>
+			<!-- section: how we work -->
+			<!-- <section class="container">
 
-        </ul>
-
-      </nav>
-      <!-- section: Featured Work -->
-      <link rel="stylesheet" href="./styles/featured-work.css" />
-      <section class="container featured-work">
-        <!-- title-container -->
-        <div class="title-container">
-          <div class="text-title">Featured Work</div>
-          <div class="text-content">
-            Showcasing our standout projects that blend creativity, strategy, and
-            cutting-edge design.
-          </div>
-          <button class="black-button">SEE ALL WORK</button>
-        </div>
-        <div class="vl"></div>
-        <!-- contents -->
-        <article class="content-container">
-          <div class="big-picture">
-            <img src="./images/featured_work/dancing-stars.png" />
-            <div class="text-container">
-              <span class="name">Dancing Stars</span>
-              <span class="year">2022</span>
-            </div>
-          </div>
-          <div class="hl"></div>
-          <div class="projects-container">
-            <div class="project-item">
-              <img src="./images/featured_work/enjoy-silence.png" />
-              <div class="text-container">
-                <span class="name">Enjoy Silence</span>
-                <span class="year">2022</span>
-              </div>
-            </div>
-            <div class="vl short"></div>
-            <div class="project-item">
-              <img src="./images/featured_work/pure-vision.png" />
-              <div class="text-container">
-                <span class="name">Pure Vision</span>
-                <span class="year">2022</span>
-              </div>
-            </div>
-          </div>
-          <div class="projects-container">
-            <div class="project-item">
-              <img src="./images/featured_work/boring-brand.png" />
-              <div class="text-container">
-                <span class="name">Boring Brand</span>
-                <span class="year">2022</span>
-              </div>
-            </div>
-            <div class="vl short"></div>
-            <div class="project-item">
-              <img src="./images/featured_work/new-culture.png" />
-              <div class="text-container">
-                <span class="name">New Culture</span>
-                <span class="year">2022</span>
-              </div>
-            </div>
-          </div>
-        </article>
-      </section>
-    </header>
-  </body>
+            </section> -->
+		</header>
+	</body>
 </html>
