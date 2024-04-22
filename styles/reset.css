@@ -112,6 +112,10 @@ ol,
 ul {
 	list-style: none;
 }
+a{
+	text-decoration-line: none;
+	text-decoration: none;
+}
 blockquote,
 q {
 	quotes: none;
