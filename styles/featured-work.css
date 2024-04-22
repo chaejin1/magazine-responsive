@@ -1,0 +1,224 @@
+@font-face {
+	font-family: 'Pretendard';
+	src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
+		format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+html {
+	font-size: 16px;
+}
+/* ------featured-work------ */
+.container {
+	/* 자동 레이아웃 */
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	/* Inside Auto Layout */
+	margin: 48px 0px;
+}
+
+/* --title-container-- */
+.title-container {
+	/* Grid */
+	position: static;
+	width: 530px;
+	height: 238px;
+	/* 자동 레이아웃 */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0px;
+
+	/* Inside Auto Layout */
+	margin: 0px 48px;
+}
+
+.black-button {
+	/* Button */
+	width: 152px;
+	height: 35px;
+	/* 자동 레이아웃 */
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 16px 10px 16px;
+	/* Inside Auto Layout */
+	margin: 48px 0px;
+
+	border-radius: 6px;
+
+	/* background/primary */
+	background: rgb(25, 25, 25);
+
+	color: rgb(253, 251, 245);
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 1px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.featured-work .text-title {
+	color: rgb(25, 25, 25);
+	font-family: 'Pretendard';
+	font-size: 64px;
+	font-weight: 500;
+	line-height: 110%;
+	letter-spacing: 0px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.featured-work .text-content {
+	color: rgb(25, 25, 25);
+	font-family: 'Pretendard';
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 160%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+/* --vertical line-- */
+.vl {
+	/* Border */
+	position: static;
+	width: 1px;
+	height: 1653.6304px;
+	/* Inside Auto Layout */
+	margin: 0px 48px;
+
+	/* border/default */
+	background: rgb(25, 25, 25);
+}
+
+/* --contents-- */
+.content-container {
+	/* Grid */
+	position: static;
+	width: 1157px;
+	height: 1653.6304px;
+	/* 자동 레이아웃 */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0px;
+
+	/* Inside Auto Layout */
+	margin: 0px 48px;
+}
+
+.big-picture {
+	/* Project */
+	position: static;
+	width: 1157px;
+	height: 768.1296px;
+	/* 자동 레이아웃 */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0px;
+}
+
+.big-picture img {
+	/* Image Wrapper */
+	position: static;
+	width: 1157px;
+	height: 723.1296px;
+	border-radius: 16px;
+}
+
+.text-container {
+	/* 자동 레이아웃 */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin: 16px 0px;
+}
+
+.big-picture .text-container {
+	width: 1157px;
+	height: 29px;
+}
+
+.text-container .name {
+	/* Dancing Stars */
+	position: static;
+	width: 1103px;
+	height: 29px;
+
+	color: rgb(25, 25, 25);
+	font-family: 'Pretendard';
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.text-container .year {
+	/* text/meta */
+	color: rgb(25, 25, 25);
+	font-family: 'Roboto Mono', monospace;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0.5px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.hl {
+	/* Border */
+	width: 1157px;
+	height: 1px;
+	margin: 32px 0px;
+	/* border/default */
+	background: rgb(25, 25, 25);
+}
+
+.projects-container {
+	display: flex;
+	justify-content: space-between;
+	width: 1157px;
+	margin-bottom: 48px;
+}
+
+.project-item img {
+	/* Image Wrapper */
+	width: 546px;
+	height: 341.25px;
+
+	border-radius: 16px;
+}
+
+.project-item .text-container {
+	width: 546px;
+}
+
+.project-item .name {
+	/* Enjoy Silence */
+	position: static;
+	width: 492px;
+	/* 자동 레이아웃 */
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0px;
+}
+
+.short {
+	height: 386.25px;
+	margin: 0px 32px;
+}
