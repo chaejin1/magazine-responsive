@@ -1,3 +1,4 @@
+
 .nav-items {
     display: none;
 }
@@ -27,18 +28,17 @@
     text-align: left;
 }
 
-.header_img {
+.vector{
+    display: none;
+}
+
+.header_image {
     width: 325px;
     height: 216px;
 }
 
-.vector{
-    display: none;
-}
-.lelft-container {
-    height: auto;
-}
 .introduction{
     flex-direction: column;
+    height:482px;
 }
 

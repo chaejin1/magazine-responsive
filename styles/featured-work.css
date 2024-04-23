@@ -17,51 +17,51 @@
 	flex-direction: row;
 
 	/* Inside Auto Layout */
-	margin: 3rem 0rem;
+	margin: 48px 0px;
 
-	border-bottom: .0625rem solid rgb(25, 25, 25);
+	border-bottom: 1px solid rgb(25, 25, 25);
 }
 
 /* --title-container-- */
 .title-container {
 	/* Grid */
 	position: static;
-	width: 33.125rem;
-	/* height: 14.875rem; */
+	width: 530px;
+	/* height: 238px; */
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 0rem;
+	padding: 0px;
 
 	/* Inside Auto Layout */
-	/* margin: 0rem 3rem; */
+	/* margin: 0px 48px; */
 }
 
 .black-button {
 	/* Button */
-	height: 2.1875rem;
+	height: 35px;
 	max-width: fit-content;
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	padding: .625rem 1rem .625rem 1rem;
+	padding: 10px 16px 10px 16px;
 	/* Inside Auto Layout */
-	margin: 3rem 0rem;
-	border-radius: .375rem;
+	margin: 48px 0px;
+	border-radius: 6px;
 
 	/* background/primary */
 	background: rgb(25, 25, 25);
 
 	color: rgb(253, 251, 245);
 	font-family: 'Roboto Mono', monospace;
-	font-size: .9375rem;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: .0625rem;
+	letter-spacing: 1px;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -69,10 +69,10 @@
 .featured-work .text-title {
 	color: rgb(25, 25, 25);
 	font-family: 'Pretendard';
-	font-size: 4rem;
+	font-size: 64px;
 	font-weight: 500;
 	line-height: 110%;
-	letter-spacing: 0rem;
+	letter-spacing: 0px;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -80,7 +80,7 @@
 .featured-work .text-content {
 	color: rgb(25, 25, 25);
 	font-family: 'Pretendard';
-	font-size: 1.5rem;
+	font-size: 24px;
 	font-weight: 400;
 	line-height: 160%;
 	letter-spacing: 0%;
@@ -91,10 +91,10 @@
 .vl {
 	/* Border */
 	position: static;
-	width: .0625rem;
-	/* height: 103.3519rem; */
-	margin: 0rem 3rem;
-	margin-bottom: 3rem;
+	width: 1px;
+	/* height: 1653.6304px; */
+	margin: 0px 48px;
+	margin-bottom: 48px;
 	/* border/default */
 	background: rgb(25, 25, 25);
 }
@@ -103,7 +103,7 @@
 .content-container {
 	/* Grid */
 	position: static;
-	width: 72.3125rem;
+	width: 1157px;
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: column;
@@ -114,21 +114,21 @@
 .big-picture {
 	/* Project */
 	position: static;
-	width: 72.3125rem;
+	width: 1157px;
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 0rem;
+	padding: 0px;
 }
 
 .big-picture img {
 	/* Image Wrapper */
 	position: static;
-	width: 72.3125rem;
-	height: 45.1956rem;
-	border-radius: 1rem;
+	width: 1157px;
+	height: 723.1296px;
+	border-radius: 16px;
 }
 
 .text-container {
@@ -137,25 +137,25 @@
 	flex-direction: row;
 	justify-content: space-between;
 
-	margin: 1rem 0rem;
+	margin: 16px 0px;
 }
 
 .big-picture .text-container {
-	width: 72.3125rem;
+	width: 1157px;
 }
 
 .text-container .name {
 	/* Dancing Stars */
 	position: static;
-	width: 68.9375rem;
-	/* height: 1.8125rem; */
+	width: 1103px;
+	/* height: 29px; */
 
 	color: rgb(25, 25, 25);
 	font-family: 'Pretendard';
-	font-size: 1.5rem;
+	font-size: 24px;
 	font-weight: 500;
 	line-height: 120%;
-	letter-spacing: 0rem;
+	letter-spacing: 0px;
 	text-align: left;
 }
 
@@ -163,19 +163,19 @@
 	/* text/meta */
 	color: rgb(25, 25, 25);
 	font-family: 'Roboto Mono', monospace;
-	font-size: .9375rem;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: .0313rem;
+	letter-spacing: .5008px;
 	text-align: left;
 	text-transform: uppercase;
 }
 
 .hl {
 	/* Border */
-	width: 72.3125rem;
-	height: .0625rem;
-	margin: 2rem 0rem;
+	width: 1157px;
+	height: 1px;
+	margin: 32px 0px;
 	/* border/default */
 	background: rgb(25, 25, 25);
 }
@@ -183,44 +183,44 @@
 .projects-container {
 	display: flex;
 	justify-content: space-between;
-	width: 72.3125rem;
-	margin-bottom: 3rem;
+	width: 1157px;
+	margin-bottom: 48px;
 }
 
 .project-item img {
 	/* Image Wrapper */
-	width: 34.125rem;
-	height: 21.3281rem;
+	width: 546px;
+	height: 341.2496px;
 
-	border-radius: 1rem;
+	border-radius: 16px;
 }
 
 .project-item .text-container {
-	width: 34.125rem;
+	width: 546px;
 }
 
 .project-item .name {
 	/* Enjoy Silence */
 	position: static;
-	width: 30.75rem;
+	width: 492px;
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 0rem;
+	padding: 0px;
 }
 
 .short {
-	height: 24.1406rem;
-	margin: 0rem 2rem;
+	height: 386.2496px;
+	margin: 0px 32px;
 }
 
 /* ----- section: how we work ----- */
 
 .how-we-work .title-container {
 	/* Grid */
-	width: 73.6875rem;
+	width: 1179px;
 	/* 자동 레이아웃 */
 	display: flex;
 	flex-direction: column;
@@ -232,37 +232,37 @@
 	/* text/meta */
 	color: rgb(25, 25, 25);
 	font-family: Roboto Mono;
-	font-size: .9375rem;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: .0313rem;
+	letter-spacing: .5008px;
 	text-align: left;
 	text-transform: uppercase;
-	margin-bottom: 1rem;
+	margin-bottom: 16px;
 }
 
 .title-text {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 5rem;
+	font-size: 80px;
 	font-weight: 500;
 	line-height: 110%;
-	letter-spacing: 0rem;
+	letter-spacing: 0px;
 	text-align: left;
 }
 
 .diamond {
-	width: 6.25rem;
-	height: 6.25rem;
-	margin-top: 6.25rem;
-	margin-bottom: 3rem;
+	width: 100px;
+	height: 100px;
+	margin-top: 100px;
+	margin-bottom: 48px;
 }
 
 .content-text {
-	width: 31.75rem;
+	width: 508px;
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 1.5rem;
+	font-size: 24px;
 	font-weight: 400;
 	line-height: 160%;
 	letter-spacing: 0%;
