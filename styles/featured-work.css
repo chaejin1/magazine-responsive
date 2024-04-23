@@ -44,7 +44,6 @@ html {
 
 .black-button {
 	/* Button */
-	width: 152px;
 	height: 35px;
 	/* 자동 레이아웃 */
 	display: flex;
