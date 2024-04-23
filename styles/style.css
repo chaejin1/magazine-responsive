@@ -14,7 +14,7 @@
 
 
 html {
-	font-size: 12px;
+	font-size: .75rem;
 }
 
 body {
@@ -22,66 +22,66 @@ body {
 }
 
 .page-wrapper{
-	padding: 3rem;
+	padding: 48px;
 	width: max-content;
 	font-family: Roboto Mono;
-	border: .0625rem solid black;
-	margin: 1.25rem;
+	border: 1px solid black;
+	margin: 20px;
 }
 
 .button {
 	color: white;
 	background-color: black;
-	border-radius: .375rem;
-	font-size: .9375rem;
-	padding: .625rem 1rem .625rem 1rem;
-	width: 8.25rem;
-	height: 2.1875rem;
+	border-radius: 6px;
+	font-size: 15px;
+	padding: 10px 16px 10px 16px;
+	width: 132px;
+	height: 35px;
 }
 
 .line{
 	background-color: black;
-	height: .0625rem;
+	height: 1px;
 	width: 100%;
 }
 .head{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 2rem;
-	border-bottom: solid .0625rem;
-	height: 3.125rem;
+	padding-bottom: 32px;
+	border-bottom: solid 1px;
+	height: 50px;
 	/* width: 100%; */
 }
 .logo {
-	width: 8.6656rem;
-	height: 3.125rem;
+	width: 138.6496px;
+	height: 50px;
 }
 .nav-items {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	width: 57.75rem;
-	height: 2.5rem;
+	width: 924px;
+	height: 40px;
 	color: black;
-	font-size: .9375rem;
-	gap: 2rem;
+	font-size: 15px;
+	gap: 32px;
 }
 
 /* .nav-items .li{
-	margin-right: 2rem;
+	margin-right: 32px;
 } */
 
 .option {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: .8125rem;
-	border: .0625rem solid black;
-	border-radius: 31.25rem;
-	height: 2.125rem;
-	width: 2.125rem;
+	font-size: 13px;
+	border: 1px solid black;
+	border-radius: 500px;
+	height: 34px;
+	width: 34px;
 	font-family: Roboto Mono;
 }
 
@@ -89,8 +89,8 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	width: 19.1875rem;
-	height: 2.5rem;
+	width: 307px;
+	height: 40px;
 }
 
 /*main 시작*/
@@ -100,65 +100,65 @@ body {
 	position: static;
 	display: flex;
 	flex-direction: column;
-	width: 53.75rem;
-	height: 43.75rem;
+	width: 860px;
+	height: 700px;
 }
 
 .right-container{
 	position: static;
 	display: flex;
 	flex-direction: column;
-	width: 53.75rem;
-	height: 43.75rem;
+	width: 860px;
+	height: 700px;
 	}
 	
 .intro{
 	font-family: Pretendard;
-	font-size: 6rem;
+	font-size: 96px;
 	font-weight: 500;
 	line-height: 110%;
-	letter-spacing: 0rem;
+	letter-spacing: 0px;
 	text-align: left;
 }
 
 .content{
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 1.75rem;
+	font-size: 28px;
 	font-weight: 400;
 	line-height: 150%;
 	letter-spacing: 0%;
 	text-align: left;
-	margin-top: 1rem
+	margin-top: 16px
 }
 
 .vector{
-	width:3.8312rem;
-	height:5rem; 
-	margin-top: 10rem;
+	width:61.2992px;
+	height:80px; 
+	margin-top: 160px;
 }
 
 .header_image{
-    border-radius: 1rem;
+    border-radius: 16px;
     object-fit: cover;
-    height: 43.75rem;
+    height: 700px;
 }
 
 .introduction{
 	display: flex;
 	justify-content: space-between;
-	padding-top:4rem;
-	padding-bottom:4rem;
-	border-bottom: solid .0625rem;
+	padding-top:64px;
+	padding-bottom:64px;
+	border-bottom: solid 1px;
 }
 
 /*mid 시작*/
 
 .mid{
 	display: flex;
-	padding-top:4.0625rem;
-	padding-bottom:4.0625rem;
-	border-bottom: solid .0625rem;
+	padding-top:65px;
+	padding-bottom:65px;
+	border-bottom: solid 1px;
 	width: 100%;
 }
 
@@ -166,15 +166,15 @@ body {
 /* text/meta */
 	color: rgb(25, 25, 25);
 	font-family: Roboto Mono;
-	font-size: .9375rem;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: .0313rem;
+	letter-spacing: .5008px;
 	text-align: left;
 	text-transform: uppercase;
-	padding-right:4rem;
-	padding-top:2rem;
-	padding-bottom:2rem;
+	padding-right:64px;
+	padding-top:32px;
+	padding-bottom:32px;
 }
 
 .Our-Clients{
@@ -183,8 +183,8 @@ body {
 }
 .logo{
 	/* position: static; */
-	width: 5.625rem;
-	height: 5rem;
+	width: 90px;
+	height: 80px;
 
 }
 
@@ -197,30 +197,30 @@ body {
 /* 마지막 부분 */
 
 .subject_img{
-	width: 5rem;
-	height:5rem;
+	width: 80px;
+	height:80px;
 }
 
 .final{
 	display: flex;
-	padding-top:4.0625rem;
-	padding-bottom:4.0625rem;
-	border-bottom: solid .0625rem;
+	padding-top:65px;
+	padding-bottom:65px;
+	border-bottom: solid 1px;
 	width: 100%;
 }
 
 .title{
 	color: rgb(25, 25, 25);
 	font-family: Roboto Mono;
-	font-size: .9375rem;
+	font-size: 15px;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: .0313rem;
+	letter-spacing: .5008px;
 	text-align: left;
 	text-transform: uppercase;
-	padding-bottom: 19.5rem;
-	padding-right: 30.1875rem;
-	border-right: solid .0625rem;
+	padding-bottom: 312px;
+	padding-right: 483px;
+	border-right: solid 1px;
 }
 
 .grid{
@@ -228,17 +228,17 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
-	width: 72.3125rem;
-	height: 20.4375rem;
-	margin-left: 3rem;
+	width: 1157px;
+	height: 327px;
+	margin-left: 48px;
 }
 
 .subject{
 	box-sizing: content-box;
     display: flex;
-    gap: 2rem;
-    width: 33.125rem;
-    padding-right: 3rem;
+    gap: 32px;
+    width: 530px;
+    padding-right: 48px;
 }
 
 
@@ -250,10 +250,10 @@ body {
 .subject_name{
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 2rem;
+	font-size: 32px;
 	font-weight: 500;
 	line-height: 120%;
-	letter-spacing: 0rem;
+	letter-spacing: 0px;
 	text-align: left;
 	text-transform: uppercase;
 }
@@ -261,7 +261,7 @@ body {
 .content{
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 1.25rem;
+	font-size: 20px;
 	font-weight: 400;
 	line-height: 170%;
 	letter-spacing: 0%;
@@ -273,7 +273,6 @@ body {
 }
 
 .border_right{
-	border-right: .0625rem solid black;
-	margin-right: 3rem;
+	border-right: 1px solid black;
+	margin-right: 48px;
 }
-
