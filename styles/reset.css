@@ -112,9 +112,10 @@ ol,
 ul {
 	list-style: none;
 }
-a{
+a {
 	text-decoration-line: none;
 	text-decoration: none;
+	color: black;
 }
 blockquote,
 q {

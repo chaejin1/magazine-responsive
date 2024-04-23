@@ -8,9 +8,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-*{box-sizing: border-box;}
+* {
+	box-sizing: border-box;
+}
 
-html{
+html {
 	font-size: 10px;
 }
 body {
@@ -22,13 +24,13 @@ body {
 	font-family: Roboto Mono;
 }
 
-.button{
-	color:white; 
+.button {
+	color: white;
 	background-color: black;
-	border-radius: 6px; 
-	font-size: 15px; 
+	border-radius: 6px;
+	font-size: 15px;
 	padding: 10px 16px 10px 16px;
-	width: 132px; 
+	width: 132px;
 	height: 35px;
 }
 
@@ -39,10 +41,10 @@ body {
 }
 .head{
 	display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 32px;
-    border-bottom: solid 1px;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 32px;
+	border-bottom: solid 1px;
 	height: 50px;
 	/* width: 100%; */
 }
@@ -50,14 +52,14 @@ body {
 	width: 138.6496px;
 	height: 50px;
 }
-.nav-items{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 924px;
+.nav-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 924px;
 	height: 40px;
-	color:black;
+	color: black;
 	font-size: 15px;
 	gap: 32px;
 }
@@ -66,20 +68,19 @@ body {
 	margin-right: 32px;
 } */
 
-.option{
+.option {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 13px; 
-	box-sizing: border-box;
-	/* border/default */
-	border: 1px solid rgb(25, 25, 25);
+	font-size: 13px;
+	border: 1px solid black;
 	border-radius: 500px;
 	height: 34px;
 	width: 34px;
+	font-family: Roboto Mono;
 }
 
-.box-items{
+.box-items {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

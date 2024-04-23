@@ -1,0 +1,96 @@
+/* ----- our-values ----- */
+.section-title {
+	padding: 0px 0px 48px 0px;
+	margin-bottom: 64px;
+	border-bottom: 1px solid black;
+}
+
+.section-title h1 {
+	color: rgb(25, 25, 25);
+	font-family: Pretendard;
+	font-size: 80px;
+	font-weight: 500;
+	line-height: 110%;
+	letter-spacing: 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.section-contents {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding-bottom: 64px;
+	margin-bottom: 64px;
+}
+
+.section-contents img {
+	/* Image Wrapper */
+	width: 843.5px;
+	height: 645px;
+
+	border-radius: 16px;
+}
+
+.section-contents .vl {
+	margin-bottom: 0px;
+}
+
+.values-item {
+	display: flex;
+	border-bottom: 1px solid black;
+	margin-bottom: 48px;
+	padding-bottom: 48px;
+}
+
+.values-item .option {
+	margin-right: 48px;
+}
+
+.ourvalues-title {
+	color: rgb(25, 25, 25);
+	font-family: Pretendard;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: 0px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 8px;
+}
+
+.ourvalues-text {
+	color: rgb(25, 25, 25);
+	font-family: Pretendard;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 170%;
+	letter-spacing: 0%;
+	text-align: left;
+	width: 761.5px;
+}
+
+.last {
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+/* ---- contact ----- */
+
+.contact {
+	justify-content: space-between;
+}
+
+.contact .title-container {
+	width: auto;
+}
+.contact .title-container .title-text {
+	color: rgb(25, 25, 25);
+	font-family: Pretendard;
+	font-size: 96px;
+	font-weight: 500;
+	line-height: 110%;
+	letter-spacing: 0px;
+	text-align: left;
+	text-transform: uppercase;
+}
