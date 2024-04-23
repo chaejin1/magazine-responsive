@@ -1,78 +1,78 @@
 /* ----- our-values ----- */
 .section-title {
-	padding: 0px 0px 48px 0px;
-	margin-bottom: 64px;
-	border-bottom: 1px solid black;
+	padding: 0rem 0rem 3rem 0rem;
+	margin-bottom: 4rem;
+	border-bottom: .0625rem solid black;
 }
 
 .section-title h1 {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 80px;
+	font-size: 5rem;
 	font-weight: 500;
 	line-height: 110%;
-	letter-spacing: 0px;
+	letter-spacing: 0rem;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 .section-contents {
 	display: flex;
-	border-bottom: 1px solid black;
-	padding-bottom: 64px;
-	margin-bottom: 64px;
+	border-bottom: .0625rem solid black;
+	padding-bottom: 4rem;
+	margin-bottom: 4rem;
 }
 
 .section-contents img {
 	/* Image Wrapper */
-	width: 843.5px;
-	height: 645px;
+	width: 52.7188rem;
+	height: 40.3125rem;
 
-	border-radius: 16px;
+	border-radius: 1rem;
 }
 
 .section-contents .vl {
-	margin-bottom: 0px;
+	margin-bottom: 0rem;
 }
 
 .values-item {
 	display: flex;
-	border-bottom: 1px solid black;
-	margin-bottom: 48px;
-	padding-bottom: 48px;
+	border-bottom: .0625rem solid black;
+	margin-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 
 .values-item .option {
-	margin-right: 48px;
+	margin-right: 3rem;
 }
 
 .ourvalues-title {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 32px;
+	font-size: 2rem;
 	font-weight: 500;
 	line-height: 120%;
-	letter-spacing: 0px;
+	letter-spacing: 0rem;
 	text-align: left;
 	text-transform: uppercase;
-	margin-bottom: 8px;
+	margin-bottom: .5rem;
 }
 
 .ourvalues-text {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: 400;
 	line-height: 170%;
 	letter-spacing: 0%;
 	text-align: left;
-	width: 761.5px;
+	width: 47.5938rem;
 }
 
 .last {
 	border-bottom: none;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
+	margin-bottom: 0rem;
+	padding-bottom: 0rem;
 }
 
 /* ---- contact ----- */
@@ -87,10 +87,10 @@
 .contact .title-container .title-text {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 96px;
+	font-size: 6rem;
 	font-weight: 500;
 	line-height: 110%;
-	letter-spacing: 0px;
+	letter-spacing: 0rem;
 	text-align: left;
 	text-transform: uppercase;
 }

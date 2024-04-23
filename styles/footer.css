@@ -10,29 +10,29 @@
 	display: flex;
 	flex-direction: row;
 
-	padding-bottom: 64px;
+	padding-bottom: 4rem;
 
-	border-bottom: 1px solid black;
+	border-bottom: .0625rem solid black;
 }
 
 .footer-left-container {
-	width: 530px;
+	width: 33.125rem;
 }
 
 .footer-address {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 18px;
+	font-size: 1.125rem;
 	font-weight: 400;
 	line-height: 170%;
 	letter-spacing: 0%;
 	text-align: left;
 
-	margin: 32px 0px 102px 0px;
+	margin: 2rem 0rem 6.375rem 0rem;
 }
 
 .vl-footer {
-	width: 1px;
+	width: .0625rem;
 	/* border/default */
 	background: rgb(25, 25, 25);
 }
@@ -41,68 +41,68 @@
 	display: flex;
 	color: rgb(25, 25, 25);
 	font-family: Roboto Mono;
-	font-size: 13px;
+	font-size: .8125rem;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: 1px;
+	letter-spacing: .0625rem;
 	text-align: left;
 	text-transform: uppercase;
-	gap: 16px;
+	gap: 1rem;
 }
 
 /* ----right-container----- */
 
 .footer-right-container {
 	display: flex;
-	gap: 48px;
-	margin-left: 48px;
+	gap: 3rem;
+	margin-left: 3rem;
 }
 
 .footer-items {
 	display: flex;
 	flex-direction: column;
-	width: 354px;
-	gap: 32px;
+	width: 22.125rem;
+	gap: 2rem;
 }
 
 .footer-items li {
 	/* text/meta */
 	color: rgb(25, 25, 25);
 	font-family: Roboto Mono;
-	font-size: 15px;
+	font-size: .9375rem;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: 0.5px;
+	letter-spacing: .0313rem;
 	text-align: left;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 .footer-items .list-title {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 24px;
+	font-size: 1.5rem;
 	font-weight: 500;
 	line-height: 120%;
-	letter-spacing: 0px;
+	letter-spacing: 0rem;
 	text-align: left;
 }
 
 .footer-items .black-button {
-	margin: 0px;
+	margin: 0rem;
 }
 
 .copyright {
-	margin: 48px 0px 16px 0px;
+	margin: 3rem 0rem 1rem 0rem;
 	display: flex;
 	justify-content: space-between;
 
 	/* text/meta */
 	color: rgb(25, 25, 25);
 	font-family: Roboto Mono;
-	font-size: 15px;
+	font-size: .9375rem;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: 0.5px;
+	letter-spacing: .0313rem;
 	text-align: left;
 	text-transform: uppercase;
 }
