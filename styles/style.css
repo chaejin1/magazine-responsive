@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Pretendard-Regular';
+	font-family: 'Pretendard';
 	src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff')
 		format('woff');
 	font-weight: 400;
@@ -32,6 +32,11 @@ body {
 	height: 35px;
 }
 
+.line{
+	background-color: black;
+	height: 1px;
+	width: 100%;
+}
 .head{
 	display: flex;
     justify-content: space-between;
@@ -183,6 +188,11 @@ body {
 
 /* 마지막 부분 */
 
+.subject_img{
+	width: 80px;
+	height:80px;
+}
+
 .last{
 	display: flex;
 	padding-top:65px;
@@ -190,3 +200,72 @@ body {
 	border-bottom: solid 1px;
 	width: 100%;
 }
+
+.title{
+	color: rgb(25, 25, 25);
+	font-family: Roboto Mono;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 100%;
+	letter-spacing: 0.5px;
+	text-align: left;
+	text-transform: uppercase;
+	padding-bottom: 312px;
+	padding-right: 483px;
+	border-right: solid 1px;
+}
+
+.grid{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 1395px;
+	height: 327px;
+	margin-left: 48px;
+}
+
+.subject{
+	box-sizing: content-box;
+    display: flex;
+    gap: 32px;
+    width: 530px;
+    padding-right: 48px;
+}
+
+
+.explanation{
+	display: flex;
+	flex-direction: column;
+}
+
+.subject_name{
+	color: rgb(25, 25, 25);
+	font-family: Pretendard;
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 120%;
+	letter-spacing: 0px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.content{
+	color: rgb(25, 25, 25);
+	font-family: Pretendard;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 170%;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.segment{
+	display: flex;
+}
+
+.border_right{
+	border-right: 1px solid black;
+	margin-right: 48px;
+}
+
