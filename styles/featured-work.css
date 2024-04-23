@@ -112,9 +112,6 @@ html {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-
-	/* Inside Auto Layout */
-	margin: 0px 48px;
 }
 
 .big-picture {
