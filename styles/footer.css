@@ -15,7 +15,7 @@
 	border-bottom: 1px solid black;
 }
 
-.left-container {
+.footer-left-container {
 	width: 530px;
 }
 
@@ -52,7 +52,7 @@
 
 /* ----right-container----- */
 
-.right-container {
+.footer-right-container {
 	display: flex;
 	gap: 48px;
 	margin-left: 48px;
