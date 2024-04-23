@@ -77,6 +77,10 @@
 
 /* ---- contact ----- */
 
+.contact {
+	justify-content: space-between;
+}
+
 .contact .title-container {
 	width: auto;
 }
