@@ -12,16 +12,15 @@
 	box-sizing: border-box;
 }
 
-
 html {
-	font-size: .75rem;
+	font-size: 0.75rem;
 }
 
 body {
 	background-color: rgb(253, 251, 245);
 }
 
-.page-wrapper{
+.page-wrapper {
 	padding: 48px;
 	width: max-content;
 	font-family: Roboto Mono;
@@ -39,12 +38,12 @@ body {
 	height: 35px;
 }
 
-.line{
+.line {
 	background-color: black;
 	height: 1px;
 	width: 100%;
 }
-.head{
+.head {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -96,7 +95,7 @@ body {
 /*main 시작*/
 /*introduction section 시작*/
 
-.left-container{
+.left-container {
 	position: static;
 	display: flex;
 	flex-direction: column;
@@ -104,15 +103,15 @@ body {
 	height: 700px;
 }
 
-.right-container{
+.right-container {
 	position: static;
 	display: flex;
 	flex-direction: column;
 	width: 860px;
 	height: 700px;
-	}
-	
-.intro{
+}
+
+.intro {
 	font-family: Pretendard;
 	font-size: 96px;
 	font-weight: 500;
@@ -121,7 +120,7 @@ body {
 	text-align: left;
 }
 
-.content{
+.content {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
 	font-size: 28px;
@@ -129,66 +128,69 @@ body {
 	line-height: 150%;
 	letter-spacing: 0%;
 	text-align: left;
-	margin-top: 16px
+	margin-top: 16px;
 }
 
-.vector{
-	width:61.2992px;
-	height:80px; 
+.vector {
+	width: 61.2992px;
+	height: 80px;
 	margin-top: 160px;
 }
 
-.header_image{
-    border-radius: 16px;
-    object-fit: cover;
-    height: 700px;
+.header_image {
+	border-radius: 16px;
+	object-fit: cover;
+	height: 700px;
 }
 
-.introduction{
+.introduction {
 	display: flex;
 	justify-content: space-between;
-	padding-top:64px;
-	padding-bottom:64px;
+	padding-top: 64px;
+	padding-bottom: 64px;
 	border-bottom: solid 1px;
 }
 
 /*mid 시작*/
 
-.mid{
+.mid {
 	display: flex;
-	padding-top:65px;
-	padding-bottom:65px;
+	padding-top: 65px;
+	padding-bottom: 65px;
 	border-bottom: solid 1px;
 	width: 100%;
 }
 
-.clients-list{
-/* text/meta */
+.clients-list {
+	/* text/meta */
 	color: rgb(25, 25, 25);
 	font-family: Roboto Mono;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: .5008px;
+	letter-spacing: 0.5008px;
 	text-align: left;
 	text-transform: uppercase;
-	padding-right:64px;
-	padding-top:32px;
-	padding-bottom:32px;
+	padding-right: 64px;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
-
-.Our-Clients{
+.border {
+	padding-right: 64px;
+	height: 80px;
+	width: auto;
+}
+.Our-Clients {
 	display: inline-flex;
 	width: 100%;
 }
-.logo{
+.logo {
 	/* position: static; */
 	width: 90px;
 	height: 80px;
-
 }
 
-.logos{
+.logos {
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -196,26 +198,26 @@ body {
 
 /* 마지막 부분 */
 
-.subject_img{
+.subject_img {
 	width: 80px;
-	height:80px;
+	height: 80px;
 }
 
-.final{
+.final {
 	display: flex;
-	padding-top:65px;
-	padding-bottom:65px;
+	padding-top: 65px;
+	padding-bottom: 65px;
 	border-bottom: solid 1px;
 	width: 100%;
 }
 
-.title{
+.title {
 	color: rgb(25, 25, 25);
 	font-family: Roboto Mono;
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: .5008px;
+	letter-spacing: 0.5008px;
 	text-align: left;
 	text-transform: uppercase;
 	padding-bottom: 312px;
@@ -223,7 +225,7 @@ body {
 	border-right: solid 1px;
 }
 
-.grid{
+.grid {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -233,21 +235,20 @@ body {
 	margin-left: 48px;
 }
 
-.subject{
+.subject {
 	box-sizing: content-box;
-    display: flex;
-    gap: 32px;
-    width: 530px;
-    padding-right: 48px;
+	display: flex;
+	gap: 32px;
+	width: 530px;
+	padding-right: 48px;
 }
 
-
-.explanation{
+.explanation {
 	display: flex;
 	flex-direction: column;
 }
 
-.subject_name{
+.subject_name {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
 	font-size: 32px;
@@ -258,7 +259,7 @@ body {
 	text-transform: uppercase;
 }
 
-.content{
+.content {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
 	font-size: 20px;
@@ -268,11 +269,11 @@ body {
 	text-align: left;
 }
 
-.segment{
+.segment {
 	display: flex;
 }
 
-.border_right{
+.border_right {
 	border-right: 1px solid black;
 	margin-right: 48px;
 }
