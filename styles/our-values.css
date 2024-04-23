@@ -1,78 +1,78 @@
 /* ----- our-values ----- */
 .section-title {
-	padding: 0rem 0rem 3rem 0rem;
-	margin-bottom: 4rem;
-	border-bottom: .0625rem solid black;
+	padding: 0px 0px 48px 0px;
+	margin-bottom: 64px;
+	border-bottom: 1px solid black;
 }
 
 .section-title h1 {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 5rem;
+	font-size: 80px;
 	font-weight: 500;
 	line-height: 110%;
-	letter-spacing: 0rem;
+	letter-spacing: 0px;
 	text-align: center;
 	text-transform: uppercase;
 }
 
 .section-contents {
 	display: flex;
-	border-bottom: .0625rem solid black;
-	padding-bottom: 4rem;
-	margin-bottom: 4rem;
+	border-bottom: 1px solid black;
+	padding-bottom: 64px;
+	margin-bottom: 64px;
 }
 
 .section-contents img {
 	/* Image Wrapper */
-	width: 52.7188rem;
-	height: 40.3125rem;
+	width: 843.5008px;
+	height: 645px;
 
-	border-radius: 1rem;
+	border-radius: 16px;
 }
 
 .section-contents .vl {
-	margin-bottom: 0rem;
+	margin-bottom: 0px;
 }
 
 .values-item {
 	display: flex;
-	border-bottom: .0625rem solid black;
-	margin-bottom: 3rem;
-	padding-bottom: 3rem;
+	border-bottom: 1px solid black;
+	margin-bottom: 48px;
+	padding-bottom: 48px;
 }
 
 .values-item .option {
-	margin-right: 3rem;
+	margin-right: 48px;
 }
 
 .ourvalues-title {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 2rem;
+	font-size: 32px;
 	font-weight: 500;
 	line-height: 120%;
-	letter-spacing: 0rem;
+	letter-spacing: 0px;
 	text-align: left;
 	text-transform: uppercase;
-	margin-bottom: .5rem;
+	margin-bottom: 8px;
 }
 
 .ourvalues-text {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 1.125rem;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 170%;
 	letter-spacing: 0%;
 	text-align: left;
-	width: 47.5938rem;
+	width: 761.5008px;
 }
 
 .last {
 	border-bottom: none;
-	margin-bottom: 0rem;
-	padding-bottom: 0rem;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 /* ---- contact ----- */
@@ -87,10 +87,10 @@
 .contact .title-container .title-text {
 	color: rgb(25, 25, 25);
 	font-family: Pretendard;
-	font-size: 6rem;
+	font-size: 96px;
 	font-weight: 500;
 	line-height: 110%;
-	letter-spacing: 0rem;
+	letter-spacing: 0px;
 	text-align: left;
 	text-transform: uppercase;
 }

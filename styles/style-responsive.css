@@ -87,6 +87,16 @@
 	border: none;
 }
 
+.header_image {
+	width: 325px;
+	height: 216px;
+}
+
+.introduction {
+	flex-direction: column;
+	height: 482px;
+}
+
 .segment {
 	flex-direction: column;
 }
